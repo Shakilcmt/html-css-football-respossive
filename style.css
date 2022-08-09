@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+
+    background-color: rgb(10, 49, 166);
+    /* display: none; */
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.banner img {
+
+    width: 556.01px;
+    height: 438px;
+    position: relative;
+    top: 15px;
+
+}
+
+.banner h1 {
+    color: white;
+
+    font-size: 60px;
+
+}
+
+.banner a {
+    color: white;
+    background-color: rgb(186, 51, 51);
+    text-decoration: none;
+    padding: 15px 30px;
+
+}
+
+.banner a:hover {
+    background-image: linear-gradient(to right, orange, red);
+    color: white;
+
+}
+
+#players {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-row-gap: 10px; */
+    /* margin-left: 200px;
+    margin-right: 200px; */
+}
+
+.player {
+
+    width: 90%;
+    /* height: 474px; */
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    box-shadow: 10px 15px 40px rgb(213, 207, 207);
+
+
+
+}
+
+.player img {
+    width: 95%;
+    height: 356px;
+    padding: 10px;
+
+
+}
+
+.player h2 {
+    font-size: 28px;
+    padding-left: 20px;
+
+}
+
+.player p {
+    color: #6C6C6C;
+    text-align: justify;
+    padding: 5px;
+}
+
+#all-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* display: none; */
+}
+
+.detail img {
+
+    width: 567px;
+    height: 427px;
+    margin-top: 150px;
+}
+
+.details {
+    margin-top: 180px;
+}
+
+.details h1 {
+    color: #0A0826;
+    font-size: 48px;
+
+}
+
+.details p {
+    color: #6C6C6C;
+    font-size: 16px;
+
+    width: 404px;
+    height: 113px;
+}
+
+.details a {
+    color: white;
+    background-color: rgb(186, 51, 51);
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+#sizer {
+    text-align: center;
+    margin-top: 150px;
+    /* display: none; */
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+
+}
+
+.icon i {
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    #players {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:688px) {
+    #players {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+
+    }
+
+}
